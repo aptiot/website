@@ -1,0 +1,18 @@
+contact:
+  enable : true
+  title : Üzenjen Nekünk
+  subtitle : Kapcsolatfelvétel
+  content : Keresse csapatunkat bizalommal!
+  contact_list:
+    - icon : ti-location-pin
+      info : "Magyarország"
+    - icon : ti-email
+      info : "Email: info@aptiot.hu"
+  contact_form:
+    enable : true
+    form_action : "https://formspree.io/f/mgvejagz"
+    name : "Ön Neve"
+    email : "Email Címe"
+    subject : "Tárgy"
+    message : "Üzenet"
+    submit : "Küldés"

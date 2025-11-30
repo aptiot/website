@@ -1,0 +1,17 @@
+funfacts:
+  enable: true
+  bg_image: "images/backgrounds/bg-switch.jpg"
+  bg_image_webp: "images/backgrounds/bg-switch.webp"
+  counter_item:
+    - title: "Sikeres Projekt"
+      icon: "ti-medall-alt"
+      count: 2
+    - title: "Mérnökév IT Gyakorlat"
+      icon: "ti-calendar"
+      count: 25
+    - title: "Beszerelt Okos Eszköz"
+      icon: "ti-unlock"
+      count: 50
+    - title: YubiKey
+      icon: "ti-shield"
+      count: 4

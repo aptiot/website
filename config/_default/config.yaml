@@ -1,0 +1,57 @@
+baseURL: https://www.aptiot.hu
+title: Aptiot
+theme: meghna-hugo
+timeZone: Europe/Budapest
+pagination:
+  pagerSize: 6
+summaryLength: 15
+hasCJKLanguage: false
+outputs:
+  home:
+    - HTML
+imaging:
+  quality: 90
+  resampleFilter: lanczos
+caches:
+  images:
+    dir: :resourceDir/_gen
+    maxAge: 720h
+  assets:
+    dir: :resourceDir/_gen
+    maxAge: 720h
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+languages:
+  hu:
+    menu:
+      main:
+        - name: rólunk
+          url: '#about'
+          weight: 1
+        - name: szolgáltatás
+          url: '#services'
+          weight: 2
+        - name: termék
+          url: '#portfolio'
+          weight: 3
+        - name: csapat
+          url: '#team'
+          weight: 4
+        - name: árazás
+          url: '#pricing'
+          weight: 5
+        - name: blog
+          url: '#blog'
+          weight: 6
+        - name: kapcsolat
+          url: '#contact'
+          weight: 7
+    languageName: Hungarian
+    languageCode: hu
+    contentDir: content/hungarian
+    params:
+      weight: 0
+      home: Home
+      copyright: Copyright &copy; 2025 Developed by [Aptiot](https://www.aptiot.com)

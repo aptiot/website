@@ -1,0 +1,36 @@
+logo: /images/logo.webp
+logo_og: /images/logo_og.webp
+description: Open source confidence
+author: Aptiot
+custom_css:
+  - /css/custom.css
+google_analytics_id: G-5L152NWSRF
+post_share: true
+plugins:
+  css:
+    - link: /plugins/bootstrap/bootstrap.min.css
+    - link: /plugins/themify-icons/themify-icons.css
+    - link: /plugins/magnific-popup/magnific-popup.css
+    - link: /plugins/slick/slick.css
+    - link: https://fonts.googleapis.com/css2?family=Alata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap
+  js:
+    - link: /plugins/jquery/jquery.min.js
+    - link: /plugins/bootstrap/bootstrap.min.js
+    - link: /plugins/slick/slick.min.js
+    - link: /plugins/shuffle/shuffle.min.js
+    - link: /plugins/magnific-popup/jquery.magnific-popup.min.js
+    - link: /plugins/lazy-load/lozad.min.js
+    - link: /plugins/google-map/map.js
+preloader:
+  enable: false
+cookies:
+  enable: false
+map:
+  enable: false
+social:
+  - icon: ti-facebook
+    link: https://www.facebook.com/aptiot/
+  - icon: ti-youtube
+    link: https://www.youtube.com/@aptiot
+  - icon: ti-linkedin
+    link: https://www.linkedin.com/company/aptiot/
