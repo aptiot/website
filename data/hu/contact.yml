@@ -10,7 +10,7 @@ contact:
       info : "Email: info@aptiot.hu"
   contact_form:
     enable : true
-    form_action : "https://formspree.io/f/mgvejagz"
+    form_action : "https://formspree.io/f/mnnedraa"
     name : "Ön Neve"
     email : "Email Címe"
     subject : "Tárgy"

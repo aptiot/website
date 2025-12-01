@@ -1,2 +1,57 @@
 pricing:
-  enable : false
+  enable : true
+  title: "Minta Csomagjaink"
+  pricing_table:
+    - name: "Okos fűtés"
+      price: "450 000 Ft + ÁFA"
+      unit: telepítés
+      services:
+        - "1 okostelefonnal irányítható központi vezérlőegység"
+        - "3 vezérelt padlófűtés kör"
+        - "1 vezérelt fűtő Wi-Fis légkondicionáló"
+        - "Összehangolt és hőkapacitásra méretezett fűtésvezérlés logika"
+        - "Pest vármegyei kiszállás és kiépítés"
+        - "2 okostelefon beüzemelés"
+        - "1 órás interaktív oktatás"
+        - "Előre kiépített Wi-Fi hálózat szükséges"
+      button:
+        label: "Ingyenes felmérést és ajánlatot kérek"
+        link: "#contact"
+    - name: "Okos világítás"
+      price: "150 000 Ft + ÁFA"
+      unit: telepítés
+      services:
+        - "1 okostelefonnal irányítható központi vezérlőegység"
+        - "5 lámpakör, okostelefonnal és kapcsolóval is működtethető"
+        - "Felhasználói viselkedés alapú vezérlőlogika"
+        - "Pest vármegyei kiszállás és kiépítés"
+        - "2 okostelefon beüzemelés"
+        - "1 órás interaktív oktatás"
+        - "Előre kiépített Wi-Fi hálózat szükséges"
+      button:
+        label: "Ingyenes felmérést és ajánlatot kérek"
+        link: "#contact"
+    - name: "Okosépület"
+      price: "Egyedi árajánlat alapján"
+      unit: telepítés
+      services:
+        - "1 okostelefonnal irányítható központi vezérlőegység"
+        - "Wi-Fi/Zigbee/Thread+Matter technológia"
+        - "Gyengeáramú és erősáramú hálózat kiépítése"
+        - "Geolokáció és jelenlét alapú reaktív fűtés/hűtés logika kialakítása"
+        - "Padló-, radiátor-, fal-, mennyezet-, légkondicionáló fűtés integrálása"
+        - "Fal-, mennyezet-, légkondicionáló hűtés integrálása"
+        - "Légminőség monitor és hővisszanyerős szellőztetőrendszer integrációja"
+        - "Zárak, kapuk központi távvezérlésének kialakítása"
+        - "Napelem és akkumulátor energiagazdálkodásának hangolása"
+        - "Világítás fényhőmérséklet napszak alapú automatikus választása"
+        - "Világítás fényerő mérés alapú automatikus választása" 
+        - "Világítás felhasználói viselkedéshez igazított működtetése"
+        - "Fény- és hővezérelt logika motorizált redőny és reluxa automatikus vezérléséhez"
+        - "Pest vármegyei kiszállás és kiépítés"
+        - "Okostelefon beüzemelés"
+        - "Interaktív oktatás"
+        - "Előre kiépített Wi-Fi hálózat nem szükséges"
+      button:
+        label: "Ingyenes felmérést és ajánlatot kérek"
+        link: "#contact"
