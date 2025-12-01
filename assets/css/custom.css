@@ -143,7 +143,7 @@ a:hover {
 .btn-transparent:hover,
 .btn-transparent:focus {
   border-color: #3EB7AE;
-  background-color: #077187;
+  background-color: #9070E3;
   border: 1px solid transparent;
   color: #DBDBDB;
 }
@@ -846,14 +846,16 @@ a:hover {
   Pricing section
 ==================================================================*/
 .price-item {
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 1px solid rgba(236, 239, 241, 0.2);
   padding-bottom: 30px;
   margin-bottom: 15px;
-  background-color: rgba(41, 47, 54, .3);
+  background-color: transparent;
 }
 
 .price-title {
-  background-color: #292F36;
+  color: #3EB7AE;
+  border-bottom: 1px solid rgba(236, 239, 241, 0.07);
+  background-color: transparent;
   padding: 30px 0 20px;
 }
 
@@ -890,11 +892,15 @@ a:hover {
 }
 
 .pricing li:nth-child(2n+1) {
-  background-color: rgba(41, 47, 54, 0.3);
+  color: #DCE5E5;
+  border-bottom: 1px solid rgba(236, 239, 241, 0.07);
+  background-color: rgba(62, 183,174, 0.1);
 }
 
 .pricing li:nth-child(2n) {
-  background-color: #292F36;
+  color: #DCE5E5;
+  border-bottom: 1px solid rgba(236, 239, 241, 0.07);
+  background-color: rgba(62, 183,174, 0.2);
 }
 
 .pricing li .btn {
