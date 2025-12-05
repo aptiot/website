@@ -1,0 +1,30 @@
+- id: blogTitle
+  translation: Utolsó Bejegyzések
+- id: readMore
+  translation: Elolvasom
+- id: viewAllPost
+  translation: Összes megtekintése
+- id: share
+  translation: Megosztás
+- id: aboutAuthor
+  translation: A szerzőről
+- id: authorsPosts
+  translation: A szerző bejegyzései
+- id: aboutTeam
+  translation: A csapatról
+- id: all
+  translation: Minden
+- id: about
+  translation: Rólunk
+- id: services
+  translation: Szolgáltatásaink
+- id: portfolio
+  translation: Termékek
+- id: team
+  translation: Csapat
+- id: pricing
+  translation: Árazás
+- id: blog
+  translation: Blog
+- id: contact
+  translation: Kapcsolat

@@ -1,0 +1,32 @@
+team:
+  enable: true
+  title: A Csapatunk
+  team_member :
+    - name: Lakatos Dávid
+      image_webp: images/team/david-lakatos.webp
+      image: images/team/david-lakatos.jpg
+      designation: ügyvezető
+      content: BME MSc, okleveles mérnök informatikus
+      social :
+        - icon: ti-user
+          link: "/team/david-lakatos"
+        - icon: ti-linkedin
+          link: "https://www.linkedin.com/in/david-lakatos/"
+        - icon: ti-github
+          link: "https://github.com/dlakatos847"
+        - icon: ti-calendar
+          link: "https://calendar.app.google/amRgwSG3aDCNSr679"
+        - icon: ti-key
+          link: "https://keys.openpgp.org/search?q=david.lakatos%40aptiot.hu"
+    - name: Rébeli-Szabó Tamás
+      image_webp: images/team/tamas-rebeli.webp
+      image: images/team/tamas-rebeli.jpg
+      designation: ügyvezető
+      content: BME MSc, okleveles mérnök informatikus
+      social :
+        - icon: ti-user
+          link: "/team/tamas-rebeli"
+        - icon: ti-linkedin
+          link: "https://www.linkedin.com/in/tam%C3%A1s-r%C3%A9beli-szab%C3%B3-69511469/"
+        - icon: ti-github
+          link: "https://github.com/rblst"

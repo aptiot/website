@@ -1,0 +1,40 @@
+portfolio:
+  enable: true
+  title: Harmonikus Okosépület
+  portfolio_item :
+    - name: Fűtésrendszer szabályozás
+      image: images/portfolio/heating.png
+      image_webp: images/portfolio/heating.webp
+      categories:
+        - Költséget szeretnék csökkenteni
+        - Nagyobb kényelmet szeretnék
+      content: Heterogén gyártójú és típusú fűtésrendszerek központi integrációja. A nagy hőkapacitású (pl. padlófűtés), a közepes hőkapacitású (pl. radiátor), és kis hőkapacitású (pl. levegőfűtés) integrációjával költség- és komfort optimalizálhatjuk épületünket.
+    - name: Hűtésrendszer szabályozás
+      image: images/portfolio/cooling.png
+      image_webp: images/portfolio/cooling.webp
+      categories:
+        - Költséget szeretnék csökkenteni
+        - Nagyobb kényelmet szeretnék
+      content: Heterogén gyártójú és típusú hűtésrendszerek központi integrációja. A falfelületet hűtő rendszerek nagy hőkapacitását kombináljuk a levegőhűtés gyorsaságával. Az intelligens felhasználásnak köszönhetően megakadályozzuk a split klímánkban a kellemetlen szag kialakulását.
+    - name: Szellőztetés
+      image: images/portfolio/ventillation.jpg
+      image_webp: images/portfolio/ventillation.webp
+      categories:
+        - Költséget szeretnék csökkenteni
+        - Nagyobb kényelmet szeretnék
+        - Pára problémám van
+        - Rossz a levegőm
+      content: Szellőztetőrendszerünk integrációjával harmonizálhatjuk az épület levegő- és hőgazdálkodását. A szellőztetőrendszer alulműködtetése rossz levegőhöz és penészedéshez vezet. A túlműködtetés viszont hőgazdálkodási/villamos energia gazdálkodási költségnövekményt és szükségtelen zajhatást okoz. Szenzoradatokra épülő kalkulációk alapján az épületintegrációnk valós időben kiválasztja az optimális szellőztetési sebességet.
+    - name: Energiatárolás
+      image: images/portfolio/energy.jpg
+      image_webp: images/portfolio/energy.webp
+      categories:
+        - Költséget szeretnék csökkenteni
+      content: A napelemmel megtermelt, de fel nem használt villamos energia kerülhet tárolásra elektromos akkumulátorban, valamint a létesítmény hőkapacitása által szolgáltatott termikus akkumulátorban is. Túltermelés esetén fűtés- vagy hűtésrendszerünk enyhe túlüzemeltetésével az esti órák hőgazdálkodási igényére előre felkészülhetünk, így napnyugta után villamos energiát tudunk megspórolni.
+    - name: Világítás
+      image: images/portfolio/lighting.jpg
+      image_webp: images/portfolio/lighting.webp
+      categories:
+        - Nagyobb kényelmet szeretnék
+        - Költséget szeretnék csökkenteni
+      content: "Mozgás-, jelenlét-, és geolokáció alapján az épület igazodjon automatikusan a felhasználó szokásaihoz! Nappali tevékenységeink során hideg/semleges fény segítse teendőinket, esti órákban hazaérve melegfény fogadjon bennünket. Irodánkban a fényviszonyokhoz és jelenléthez automatikusan igazodhat a megvilágítás erőssége. Megvilágítási szükséglet nélkül kapcsoljanak le a világítótestek. A jól bevált kapcsolókat továbbra is tudjuk használni az okostelefonunkkal és az automatizmusokkal párhuzamosan."

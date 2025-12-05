@@ -1,0 +1,46 @@
+pricing:
+  enable : true
+  title: "Okos Csomagjaink"
+  pricing_table:
+    - name: "Okos világítás"
+      price: "150 000 Ft + ÁFA"
+      services:
+        - "1 központi vezérlőegység"
+        - "4 kapcsolható lámpa áramkör"
+        - "Geolokáció alapú vezérlés"
+        - "Meglévő lámpakapcsoló integráció"
+        - "Pest vármegye ingyenes kiszállás"
+        - "2 okostelefon integráció"
+        - "1 óra interaktív oktatás"
+        - "Kiépített áram és Wi-Fi szükséges"
+      button:
+        label: "Megrendelés"
+        link: "#contact"
+    - name: "Okos fűtés"
+      price: "250 000 Ft + ÁFA"
+      services:
+        - "1 központi vezérlőegység"
+        - "3 vezérelt padlófűtés kör"
+        - "1 fűtő Wi-Fi légkondi integráció"
+        - "Hőkapacitás hangolás"
+        - "Pest vármegye ingyenes kiszállás"
+        - "2 okostelefon integráció"
+        - "1 óra interaktív oktatás"
+        - "Kiépített áram és Wi-Fi szükséges"
+      button:
+        label: "Megrendelés"
+        link: "#contact"
+    - name: "Okos ingatlan"
+      price: "Egyedi árajánlat"
+      services:
+        - "1 központi vezérlőegység"
+        - "Wi-Fi/Zigbee/Thread+Matter"
+        - "Reaktív fűtés/hűtés szabályozás"
+        - "Hővisszanyerős szell. integráció"
+        - "Zár/kapu távvezérlés"
+        - "Napelem/akkumulátor hangolás"
+        - "Világítás távvez. és szabályozás"
+        - "Erős- és gyengeá. hálózat kiépítése"
+      button:
+        label: "Ingyenes ajánlat"
+        link: "#contact"
