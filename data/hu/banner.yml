@@ -1,10 +1,11 @@
 banner:
   enable: true
+  bg_video_webm: "videos/hero-area.webm"
+  bg_video_mp4: "videos/hero-area.mp4"
   bg_image_webp: "images/backgrounds/hero-area.webp"
-  bg_image: "images/backgrounds/hero-area.jpg"
-  title: "Open source confidence"
-  content: "Reshaping enterprise ecosystems with free and open source cloud solutions."
+  title: "Tervezett Harmónia"
+  content: "Lakóépületek és irodaházak költséghatékonyságának, komfortjának és biztonságának növelése okoseszközökkel."
   button:
     enable: true
-    label: "INDULÁS"
-    link: "#services"
+    label: "Tervezzünk"
+    link: "#portfolio"

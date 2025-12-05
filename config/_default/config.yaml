@@ -1,6 +1,7 @@
 baseURL: https://www.aptiot.hu
 title: Aptiot
-theme: meghna-hugo
+theme:
+  - meghna-hugo
 timeZone: Europe/Budapest
 pagination:
   pagerSize: 6
@@ -30,24 +31,24 @@ languages:
         - name: rólunk
           url: '#about'
           weight: 1
-        - name: szolgáltatás
-          url: '#services'
-          weight: 2
-        - name: termék
+        - name: portfolio
           url: '#portfolio'
           weight: 3
         - name: csapat
           url: '#team'
           weight: 4
-        - name: árazás
+        - name: csomagok
           url: '#pricing'
           weight: 5
+        - name: vélemények
+          weight: 6
+          url: '#testimonial'
         - name: blog
           url: '#blog'
-          weight: 6
+          weight: 7
         - name: kapcsolat
           url: '#contact'
-          weight: 7
+          weight: 8
     languageName: Hungarian
     languageCode: hu
     contentDir: content/hungarian

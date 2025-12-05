@@ -1,10 +1,10 @@
 cta:
-  enable : false
-  bg_image : "images/backgrounds/bg-white-wall.jpg"
-  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
-  title : "Great Design & Incredible Features"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+  enable: true
+  bg_image: "images/backgrounds/bg-plan.jpg"
+  bg_image_webp: "images/backgrounds/bg-plan.webp"
+  title: "Ötlettől a Telepítésig"
+  content: "Csapatunk segít ügyfeleinek megtervezni és megvalósítani elképzeléseit. A munkavégzésünk mindig alapos helyszíni felméréssel, radaros falszkenneléssel, vezetéknélküli interferencia méréssel indul. Törekszünk az igényes kivitelezésre precíziós lézeres eszközparkunk felhasználásával. Munkavégzésünk erősáramú kötéseit hőkamerás vizsgálattal ellenőrizzük. Igény szerint rajzolvasás alapú árajánlat elkészítését, szabványos villamosipari rajz elkészítését és az alapján történő kivitelezést is vállalunk. Erősáramú, gyengeáramú, illetve vezetéknélküli informatikai hálózat kiépítésével is keressen bátran bennünket!"
   button:
     enable : true
-    label : "Start a project with us"
+    label : "Okosingatlant szeretnék"
     link : "#contact"

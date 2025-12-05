@@ -5,8 +5,8 @@ team:
     - name: Lakatos Dávid
       image_webp: images/team/david-lakatos.webp
       image: images/team/david-lakatos.jpg
-      designation: Ügyvezető, okleveles mérnök informatikus
-      content: Lorem Ipsum
+      designation: ügyvezető
+      content: BME MSc, okleveles mérnök informatikus
       social :
         - icon: ti-user
           link: "/team/david-lakatos"
@@ -21,8 +21,8 @@ team:
     - name: Rébeli-Szabó Tamás
       image_webp: images/team/tamas-rebeli.webp
       image: images/team/tamas-rebeli.jpg
-      designation: Ügyvezető, okleveles mérnök informatikus
-      content: Lorem Ipsum
+      designation: ügyvezető
+      content: BME MSc, okleveles mérnök informatikus
       social :
         - icon: ti-user
           link: "/team/tamas-rebeli"

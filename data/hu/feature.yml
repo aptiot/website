@@ -1,7 +1,2 @@
 feature:
   enable: false
-  image: images/about/about-business-man.jpg
-  image_webp: images/about/about-business-man.webp
-  title: Lorem Ipsum
-  content: "Lorem Ipsum"
-  feature_item: []

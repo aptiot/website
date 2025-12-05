@@ -1,6 +1,6 @@
 portfolio:
   enable: true
-  title: Okosotthon Harmonizáció
+  title: Harmonikus Okosépület
   portfolio_item :
     - name: Fűtésrendszer szabályozás
       image: images/portfolio/heating.png
@@ -37,4 +37,4 @@ portfolio:
       categories:
         - Nagyobb kényelmet szeretnék
         - Költséget szeretnék csökkenteni
-      content: "Alakítsuk át épületünk kapcsolókra épülő megvilágítási filozófiáját! Mozgás-, jelenlét-, és geolokáció alapján az épület igazodjon automatikusan a felhasználó szokásaihoz! Nappali tevékenységeink során hideg/semleges fény segítse teendőinket, esti órákban hazaérve melegfény fogadjon bennünket. Irodánkban a fényviszonyokhoz és jelenléthez automatikusan igazodhat a megvilágítás erőssége. Megvilágítási szükséglet nélkül kapcsoljanak le a világítótestek. A jól bevált kapcsolókat továbbra is tudjuk használni az okostelefonunkkal és az automatizmusokkal párhuzamosan."
+      content: "Mozgás-, jelenlét-, és geolokáció alapján az épület igazodjon automatikusan a felhasználó szokásaihoz! Nappali tevékenységeink során hideg/semleges fény segítse teendőinket, esti órákban hazaérve melegfény fogadjon bennünket. Irodánkban a fényviszonyokhoz és jelenléthez automatikusan igazodhat a megvilágítás erőssége. Megvilágítási szükséglet nélkül kapcsoljanak le a világítótestek. A jól bevált kapcsolókat továbbra is tudjuk használni az okostelefonunkkal és az automatizmusokkal párhuzamosan."

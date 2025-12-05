@@ -1,5 +1,10 @@
 testimonial:
-  enable : false
-  bg_image : images/backgrounds/bg-testimonial.jpg
-  bg_image_webp : images/backgrounds/bg-testimonial.webp
-  testimonial_item :
+  enable: true
+  bg_image: images/backgrounds/bg-testimonial.jpg
+  bg_image_webp: images/backgrounds/bg-testimonial.webp
+  testimonial_item:
+    - name : Misu
+      image : images/client/misu.jpg
+      image_webp : images/client/misu.webp
+      date : Dec 3, 2025
+      content : Nagyon örülök a végeredménynek, a kivitelezés precíz és pontos volt, ahogyan az előtte lévő tervezés is. Nem csak eszközök telepítését kaptam, hanem egy egész rendszer működését és annak logikai felépítését is.

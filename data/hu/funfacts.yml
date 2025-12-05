@@ -1,7 +1,7 @@
 funfacts:
   enable: true
-  bg_image: "images/backgrounds/bg-switch.jpg"
-  bg_image_webp: "images/backgrounds/bg-switch.webp"
+  bg_image: "images/backgrounds/bg-funfact.jpg"
+  bg_image_webp: "images/backgrounds/bg-funfact.webp"
   counter_item:
     - title: "Sikeres Projekt"
       icon: "ti-medall-alt"
