@@ -24,6 +24,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+defaultContentLanguage: hu
 languages:
   hu:
     menu:
