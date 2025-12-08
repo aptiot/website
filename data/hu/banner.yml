@@ -5,6 +5,9 @@ banner:
   bg_image_webp: "images/backgrounds/hero-area.webp"
   title: "Tervezett Harmónia"
   content: "Lakóépületek és irodaházak költséghatékonyságának, komfortjának és biztonságának növelése okoseszközökkel."
+  icon:
+    play: ti-control-play
+    stop: ti-control-stop
   button:
     enable: true
     label: "Tervezzünk"

@@ -515,10 +515,17 @@ a:hover {
   border-radius: 50px;
 }
 
-.hero-area .block .video-button i {
+.hero-area .block .video-button a i {
   line-height: 60px;
   font-size: 20px;
-  margin-left: 3px;
+  color:rgb(62, 183, 174);
+}
+
+.play-stop {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
 }
 
 .hero-area .block h1 {

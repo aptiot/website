@@ -4,15 +4,36 @@
 {{ with $data.banner.banner }}
 {{"<!-- Welcome Slider-->" | safeHTML}}
 <section class="hero-area">
-	<video autoplay preload poster="{{ .bg_image_webp | absURL}}">
+	<video id="bg_player" autoplay preload poster="{{ .bg_image_webp | absURL}}">
 		<source src="{{ .bg_video_webm | absURL}}" type="video/webm">
 		<source src="{{ .bg_video_mp4 | absURL}}" type="video/mp4">
 	</video>
 	<div class="block" style="position: absolute;">
 		{{ if .icon }}
+		{{ with .icon }}
+		<script>
+			var bg_player = document.getElementById('bg_player')
+			var play_icon_class = "{{ .play }}"
+			var stop_icon_class = "{{ .stop }}"
+			function toggle_play_stop(play_stop_element) {
+				if (bg_player.paused) {
+					console.log("play video");
+					bg_player.play();
+					play_stop_element.className = stop_icon_class
+				} else {
+					console.log(`pause video at ${bg_player.currentTime}s`);
+					bg_player.pause();
+					bg_player.currentTime = 0.0;
+					play_stop_element.className = play_icon_class
+				}
+			}
+		</script>
 		<div class="video-button">
-			<i class="{{ .icon }}"></i>
+			<a href="#" class="play-stop" onclick="toggle_play_stop(document.getElementById('play-stop-icon'))">
+				<i id="play-stop-icon" class="{{ .play }}"></i>
+			</a>
 		</div>
+		{{ end }}
 		{{ end }}
 		<h1>{{ .title | markdownify }}</h1>
 		<p>{{ .content | markdownify }}</p>
