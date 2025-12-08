@@ -486,7 +486,7 @@ a:hover {
 
 .hero-area:before {
   content: '';
-  background: rgba(29, 51, 50, 0.85);
+  background: rgba(29, 51, 50, 0);
   position: absolute;
   top: 0;
   right: 0;
@@ -509,10 +509,22 @@ a:hover {
 .hero-area .block .video-button {
   background: #f9f9f9;
   color: #3EB7AE;
+  border: 1px solid #3EB7AE;
   display: inline-block;
   height: 60px;
   width: 60px;
   border-radius: 50px;
+}
+
+.video-button-block {
+  right: 3%;
+  bottom: 3%;
+}
+
+.bottom-corner {
+  left: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .hero-area .block .video-button a i {

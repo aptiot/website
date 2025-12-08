@@ -4,42 +4,66 @@
 {{ with $data.banner.banner }}
 {{"<!-- Welcome Slider-->" | safeHTML}}
 <section class="hero-area">
-	<video id="bg_player" autoplay preload poster="{{ .bg_image_webp | absURL}}">
+	{{ if .icon }}
+	{{ with .icon }}
+	<script>
+		var orig_bg_color = null;
+		function play(player, icon) {
+			const stop_icon_class = "{{ .stop }}"
+			const to_be_hidden = document.getElementsByClassName('hide-when-video-playing')
+			const bg_transparent = document.getElementById("video-button")
+			icon.className = stop_icon_class
+			Array.from(to_be_hidden).forEach((element) => jQuery(element).fadeTo("medium", 0));
+			orig_bg_color = bg_transparent.style.backgroundColor
+			bg_transparent.style.backgroundColor = '#00000000'
+			setTimeout(function() {
+				player.play()
+			}, 1000);
+		}
+		function stop(player, icon) {
+			const play_icon_class = "{{ .play }}"
+			const media_src = player.currentSrc
+			const to_be_revealed = document.getElementsByClassName('hide-when-video-playing')
+			const bg_transparent = document.getElementById("video-button")
+			player.src = ""
+			icon.className = play_icon_class
+			player.src = media_src
+			player.load()
+			Array.from(to_be_revealed).forEach((element) => jQuery(element).fadeTo("slow", 1));
+			bg_transparent.style.backgroundColor = orig_bg_color
+		}
+		function toggle_play_stop(play_stop_element) {
+			const player = document.getElementById('bg_player')
+			if (player.paused) {
+				play(player, play_stop_element);
+			} else {
+				stop(player, play_stop_element);
+			}
+		}
+	</script>
+	{{ end }}
+	{{ end }}
+	<img class="d-none" src="{{ .bg_image_webp | absURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"/>
+	<video id="bg_player" preload poster="{{ .bg_image_webp | absURL}}" onpause="stop(document.getElementById('bg_player'), document.getElementById('play-stop-icon'))">
 		<source src="{{ .bg_video_webm | absURL}}" type="video/webm">
-		<source src="{{ .bg_video_mp4 | absURL}}" type="video/mp4">
 	</video>
 	<div class="block" style="position: absolute;">
+		<h1 class="hide-when-video-playing">{{ .title | markdownify }}</h1>
+		<p class="hide-when-video-playing">{{ .content | markdownify }}</p>
+		{{ if .button.enable }}
+		{{ with .button }}
+		<a href="{{ .link }}" class="btn btn-transparent page-scroll hide-when-video-playing">{{ .label }}</a>
+		{{ end }}
+		{{ end }}
+	</div>
+	<div class="block video-button-block" style="position: absolute;">
 		{{ if .icon }}
 		{{ with .icon }}
-		<script>
-			var bg_player = document.getElementById('bg_player')
-			var play_icon_class = "{{ .play }}"
-			var stop_icon_class = "{{ .stop }}"
-			function toggle_play_stop(play_stop_element) {
-				if (bg_player.paused) {
-					console.log("play video");
-					bg_player.play();
-					play_stop_element.className = stop_icon_class
-				} else {
-					console.log(`pause video at ${bg_player.currentTime}s`);
-					bg_player.pause();
-					bg_player.currentTime = 0.0;
-					play_stop_element.className = play_icon_class
-				}
-			}
-		</script>
-		<div class="video-button">
+		<div id="video-button" class="video-button">
 			<a href="#" class="play-stop" onclick="toggle_play_stop(document.getElementById('play-stop-icon'))">
 				<i id="play-stop-icon" class="{{ .play }}"></i>
 			</a>
 		</div>
-		{{ end }}
-		{{ end }}
-		<h1>{{ .title | markdownify }}</h1>
-		<p>{{ .content | markdownify }}</p>
-		{{ if .button.enable }}
-		{{ with .button }}
-		<a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>
 		{{ end }}
 		{{ end }}
 	</div>
