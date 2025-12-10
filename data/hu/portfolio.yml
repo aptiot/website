@@ -15,6 +15,7 @@ portfolio:
       categories:
         - Költséget szeretnék csökkenteni
         - Nagyobb kényelmet szeretnék
+        - Pára problémám van
       content: Heterogén gyártójú és típusú hűtésrendszerek központi integrációja. A falfelületet hűtő rendszerek nagy hőkapacitását kombináljuk a levegőhűtés gyorsaságával. Az intelligens felhasználásnak köszönhetően megakadályozzuk a split klímánkban a kellemetlen szag kialakulását.
     - name: Szellőztetés
       image: images/portfolio/ventillation.jpg
@@ -24,7 +25,7 @@ portfolio:
         - Nagyobb kényelmet szeretnék
         - Pára problémám van
         - Rossz a levegőm
-      content: Szellőztetőrendszerünk integrációjával harmonizálhatjuk az épület levegő- és hőgazdálkodását. A szellőztetőrendszer alulműködtetése rossz levegőhöz és penészedéshez vezet. A túlműködtetés viszont hőgazdálkodási/villamos energia gazdálkodási költségnövekményt és szükségtelen zajhatást okoz. Szenzoradatokra épülő kalkulációk alapján az épületintegrációnk valós időben kiválasztja az optimális szellőztetési sebességet.
+      content: Hővisszanyerős szellőztetőrendszer kiépítésével és integrációjával harmonizálhatjuk az épület levegő- és hőgazdálkodását. A szellőztetőrendszer alulműködtetése rossz levegőhöz és penészedéshez vezet, a túlműködtetés viszont hőgazdálkodási/villamos energia gazdálkodási költségnövekményt és szükségtelen zajhatást okoz. Szenzoradatokra épülő kalkulációk alapján épületintegrációnk valós időben kiválasztja az optimális szellőztetési sebességet.
     - name: Energiatárolás
       image: images/portfolio/energy.jpg
       image_webp: images/portfolio/energy.webp
