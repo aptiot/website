@@ -1,10 +1,15 @@
 testimonial:
   enable: true
-  bg_image: images/backgrounds/bg-testimonial.jpg
-  bg_image_webp: images/backgrounds/bg-testimonial.webp
+  bg_image: "images/backgrounds/bg-testimonial.jpg"
+  bg_image_webp: "images/backgrounds/bg-testimonial.webp"
   testimonial_item:
-    - name : Misu
-      image : images/client/misu.jpg
-      image_webp : images/client/misu.webp
-      date : Dec 3, 2025
-      content : Nagyon örülök a végeredménynek, a kivitelezés precíz és pontos volt, ahogyan az előtte lévő tervezés is. Nem csak eszközök telepítését kaptam, hanem egy egész rendszer működését és annak logikai felépítését is.
+    - name: "Misu"
+      image: "images/client/misu.jpg"
+      image_webp: "images/client/misu.webp"
+      date: "Dec 3, 2025"
+      content: "Nagyon örülök a végeredménynek, a kivitelezés precíz és pontos volt, ahogyan az előtte lévő tervezés is. Nem csak eszközök telepítését kaptam, hanem egy egész rendszer működését és annak logikai felépítését is."
+    - name: "Julcsi"
+      image: "images/client/julcsi.jpg"
+      image_webp: "images/client/julcsi.webp"
+      date: "Dec 10, 2025"
+      content: "Rendkívül nagy kényelmet ad, hogy a telefonomról egy appból tudok minden okos eszközt szabályozni, amit eddig 4-5 külön alkalmazásból kellett megtennem. Kifejezetten örülök a meglévő kapcsolókkal is kapcsolható, napszakhoz automatikusan igazodó okos világításnak, amit kiépítettek nekem."
