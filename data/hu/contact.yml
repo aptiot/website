@@ -4,10 +4,18 @@ contact:
   subtitle : Kapcsolatfelvétel
   content : Keresse csapatunkat bizalommal!
   contact_list:
-    - icon : ti-location-pin
-      info : "Magyarország"
-    - icon : ti-email
-      info : "Email: info@aptiot.hu"
+    - icon: ti-location-pin
+      info: "Magyarország"
+    - icon: ti-email
+      info: "info@aptiot.hu"
+    - icon: ti-headphone-alt
+      info: "+36 20 522 1398"
+    - icon: ti-facebook
+      info: "aptiot"
+    - icon: ti-youtube
+      info: "@aptiot"
+    - icon: ti-linkedin
+      info: "aptiot"
   contact_form:
     enable : true
     form_action : "https://formspree.io/f/mnnedraa"
