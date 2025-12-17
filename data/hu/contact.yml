@@ -20,6 +20,8 @@ contact:
       info: "[@aptiot](https://www.youtube.com/@aptiot)"
     - icon: ti-linkedin
       info: "[aptiot](http://linkedin.com/company/aptiot)"
+    - icon: ti-pinterest-alt
+      info: "[aptiot](https://www.pinterest.com/aptiot/)"
   contact_form:
     enable : true
     form_action : "https://formspree.io/f/mnnedraa"
