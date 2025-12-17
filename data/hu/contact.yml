@@ -9,7 +9,7 @@ contact:
     - icon: ti-email
       info: "[info@aptiot.hu](mailto:info@aptiot.hu)"
     - icon: ti-headphone-alt
-      info: "[+36 30 527 3328](callto:36305273328)"
+      info: "+36 30 527 3328"
     - icon: ti-whatsapp
       info: '[+36 30 527 3328](https://api.whatsapp.com/send?phone=36305273328&text=)'
     - icon: ti-viber
