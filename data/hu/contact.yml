@@ -5,17 +5,21 @@ contact:
   content : Keresse csapatunkat bizalommal!
   contact_list:
     - icon: ti-location-pin
-      info: "Magyarország"
+      info: "[Magyarország](https://www.google.com/maps/place/Hungary/@47.1345757,16.8658325,7z)"
     - icon: ti-email
-      info: "info@aptiot.hu"
+      info: "[info@aptiot.hu](mailto:info@aptiot.hu)"
     - icon: ti-headphone-alt
-      info: "+36 30 527 3328"
+      info: "[+36 30 527 3328](callto:36305273328)"
+    - icon: ti-whatsapp
+      info: '[+36 30 527 3328](https://api.whatsapp.com/send?phone=36305273328&text=)'
+    - icon: ti-viber
+      info: '+36 30 527 3328'
     - icon: ti-facebook
-      info: "aptiot"
+      info: "[aptiot](https://www.facebook.com/aptiot/)"
     - icon: ti-youtube
-      info: "@aptiot"
+      info: "[@aptiot](https://www.youtube.com/@aptiot)"
     - icon: ti-linkedin
-      info: "aptiot"
+      info: "[aptiot](http://linkedin.com/company/aptiot)"
   contact_form:
     enable : true
     form_action : "https://formspree.io/f/mnnedraa"
