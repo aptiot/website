@@ -538,6 +538,20 @@ a:hover {
   height: 100%;
   width: 100%;
   text-decoration: none;
+
+  & .ti-control-play {
+    margin-left: 3px;
+  }
+
+  & .ti-control-stop {
+    margin-left: 0px;
+  }
+}
+
+.play-stop:has(> .ti-control-play) {
+  background-image: url("/images/circle.gif");
+  background-position: center;
+  background-size: 120%;
 }
 
 .hero-area .block h1 {
