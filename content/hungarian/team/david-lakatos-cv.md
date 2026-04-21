@@ -1,14 +1,16 @@
 
 Experience
 ----------
+2024–now
+: **CEO/Co-Founder/Smart Building Engineer/Electrician**; Aptiot
+: 
+
 2024-now
-: **CEO/Co-Founder/DevSecOps Engineer**; aptiot
+: **CEO/Co-Founder/DevSecOps Engineer**; Sysagnostic
+: I assist our customers to reduce their license & operational costs by implementing & supporting free and open source cloud solutions.
+: AWS, OpenTofu, Java, Eclipse Temurin, Wildfly, AlmaLinux, Debian, OpenLDAP
 
-  I assist our customers to reduce their license & operational costs by implementing & supporting free and open source cloud solutions.
-
-  AWS, OpenTofu, Java, Eclipse Temurin, Wildfly, AlmaLinux, Debian, OpenLDAP
-
-2021-now
+2021-2025
 : **Senior IT Consultant**; Great-IT
 : Solution architect and lead consultant of software development and DevOps projects. Mentoring junior colleagues. Certain projects require my  business analyst skills to achieve customer satisfaction.
 : Java, Java EE, Linux, Oracle Weblogic, WLST, Oracle Service Bus, Python, Thales HSM, UML, JMeter, MySQL, OpenJDK, Kubernetes, PowerShell, Docker, Bash, Git, GitHub

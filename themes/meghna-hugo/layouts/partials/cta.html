@@ -11,8 +11,13 @@
 			<div class="col-lg-12 text-center">
 				<h2>{{ .title | markdownify }}</h2>
 				<p>{{ .content | markdownify }}</p>
-				{{ if .button.enable }}
-				{{ with .button }}
+				{{ if .button1.enable }}
+				{{ with .button1 }}
+				<a href="{{ .link }}" class="btn btn-main page-scroll">{{ .label }}</a></br>
+				{{ end }}
+				{{ end }}
+				{{ if .button2.enable }}
+				{{ with .button2 }}
 				<a href="{{ .link }}" class="btn btn-main page-scroll">{{ .label }}</a>
 				{{ end }}
 				{{ end }}

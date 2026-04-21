@@ -1,8 +1,11 @@
 
 Experience
 ----------
-2025–now
-:   **CEO/Co-Founder/Senior System Engineer**; APTIOT
+2024–now
+:   **CEO/Co-Founder/Smart Building Engineer/Electrician**; Aptiot
+
+2024–now
+:   **CEO/Co-Founder/Senior System Engineer**; Sysagnostic
 
 
 2018–now
@@ -83,9 +86,12 @@ Experience
 Languages
 ----------
 English
+
 :   **Bilingual**
 
+
 Hungarian
+
 :   **Native**
 
 
