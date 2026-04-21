@@ -1,7 +1,7 @@
 ---
 title: "David Lakatos"
 image_webp: images/team/david-lakatos.webp
-image: images/team/david-lakatos.jpg
+image: images/team/david-lakatos.png
 email: "david.lakatos@aptiot.hu"
 social:
   - icon : ti-linkedin

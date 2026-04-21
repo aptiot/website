@@ -1,7 +1,7 @@
 ---
 title: "Tamas Rebeli"
 image_webp: images/team/tamas-rebeli.webp
-image: images/team/tamas-rebeli.jpg
+image: images/team/tamas-rebeli.png
 email: "tamas.rebeli@aptiot.hu"
 date: 2025-01-07
 social:
