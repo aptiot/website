@@ -4,8 +4,8 @@ banner:
   buttons:
     - enable: true
       label: "Lakossági"
-      link: "residential"
+      link: "lakossagi"
     - enable: true
       label: "Vállalati"
-      link: "commercial"
+      link: "vallalati"
   postfix: ügyfél vagyok
