@@ -549,7 +549,7 @@ a:hover {
 }
 
 .play-stop:has(> .ti-control-play) {
-  background-image: url("/images/circle.gif");
+  background-image: url("../images/circle.gif");
   background-position: center;
   background-size: 120%;
 }

@@ -1,0 +1,20 @@
+team:
+  enable: true
+  title: A Csapatunk
+  team_member :
+    - name: Lakatos Dávid
+      image_webp: images/team/david-lakatos.webp
+      image: images/team/david-lakatos.png
+      designation: ügyvezető
+      content: BME MSc, okleveles mérnök informatikus
+      social :
+        - icon: ti-user
+          link: "/team/david-lakatos"
+    - name: Rébeli-Szabó Tamás
+      image_webp: images/team/tamas-rebeli.webp
+      image: images/team/tamas-rebeli.png
+      designation: ügyvezető
+      content: BME MSc, okleveles mérnök informatikus
+      social :
+        - icon: ti-user
+          link: "/team/tamas-rebeli"

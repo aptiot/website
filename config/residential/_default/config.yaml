@@ -1,4 +1,3 @@
-baseURL: https://www.aptiot.hu
 title: Aptiot
 theme:
   - meghna-hugo
@@ -56,4 +55,10 @@ languages:
     params:
       weight: 0
       home: Home
-      copyright: Copyright &copy; 2025 Developed by [Aptiot](https://www.aptiot.com)
+      copyright: Copyright &copy; 2026 Developed by [Aptiot](https://www.aptiot.com)
+module:
+  mounts:
+  - source: static/residential
+    target: static
+  - source: data/residential
+    target: data

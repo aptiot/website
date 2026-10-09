@@ -1,0 +1,13 @@
+about:
+  enable: true
+  title: Tudd Rólunk
+  about_item:
+    - icon: ti-signal
+      title: Letisztult
+      content: Törekszünk a legkisebb falroncsolással, vezetéknélküli technológiákkal megvalósítani ügyfeleink elképzelését. Az elkerülhetetlen kábelvezetéseknél célunk az elegáns megjelenés biztosítása.
+    - icon: ti-ruler-pencil
+      title: Precíz
+      content: Felmérési munkánkat lézeres távolságmérővel kivitelezzük, roncsolással járó műveleteinket falradar segíti. A függőleges és vízszintes vonalvezetésünket keresztlézer garantálja.
+    - icon: ti-brush
+      title: Koszmentes
+      content: Fúrásnál és horonymarásnál ipari porelszívó technológiát alkalmazunk, a kivitelezés mindig alapvető takarítással zárul. Ügyfeleink igénye szerint lábzsákkal védjük az ingatlan tisztaságát.
