@@ -1,0 +1,11 @@
+banner:
+  enable: true
+  bg_image_webp: "images/backgrounds/hero-area.webp"
+  buttons:
+    - enable: true
+      label: "Lakossági"
+      link: "residential"
+    - enable: true
+      label: "Vállalati"
+      link: "commercial"
+  postfix: ügyfél vagyok

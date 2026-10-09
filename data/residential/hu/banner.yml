@@ -8,7 +8,7 @@ banner:
   icon:
     play: ti-control-play
     stop: ti-control-stop
-  button:
-    enable: true
-    label: "Tervezzünk"
-    link: "#portfolio"
+  buttons:
+    - enable: true
+      label: "Tervezzünk"
+      link: "#portfolio"

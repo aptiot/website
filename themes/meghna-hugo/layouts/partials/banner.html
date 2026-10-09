@@ -50,10 +50,17 @@
 	<div class="block" style="position: absolute;">
 		<h1 class="hide-when-video-playing">{{ .title | markdownify }}</h1>
 		<p class="hide-when-video-playing">{{ .content | markdownify }}</p>
-		{{ if .button.enable }}
-		{{ with .button }}
+		{{ range .buttons }}
+		{{ if .enable }}
+		{{ with . }}
 		<a href="{{ .link }}" class="btn btn-transparent page-scroll hide-when-video-playing">{{ .label }}</a>
 		{{ end }}
+		{{ end }}
+		{{ end }}
+		{{ if .postfix }}
+		<div style="margin-top: 25px;">
+		<p style="font-family: alata">{{ .postfix | markdownify }}</p>
+		</div>
 		{{ end }}
 	</div>
 	<div class="block video-button-block" style="position: absolute;">

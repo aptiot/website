@@ -27,6 +27,10 @@ cookies:
   enable: false
 map:
   enable: false
+navigation:
+  enable: true
+footer:
+  enable: true
 social:
   - icon: ti-facebook
     link: https://www.facebook.com/aptiot/
