@@ -1,0 +1,14 @@
+banner:
+  enable: true
+  bg_video_webm: "videos/hero-area.webm"
+  bg_video_mp4: "videos/hero-area.mp4"
+  bg_image_webp: "images/backgrounds/hero-area.webp"
+  title: "Tervezett harmónia"
+  content: "Irodák, irodaházak és gyárépületek teljeskörű épületinformatikai tervezése és kivitelezése."
+  icon:
+    play: ti-control-play
+    stop: ti-control-stop
+  buttons:
+    - enable: true
+      label: "Tervezzünk"
+      link: "#portfolio"
