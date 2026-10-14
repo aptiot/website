@@ -21,13 +21,13 @@
 
 							{{"<!-- plan name & value -->" | safeHTML}}
 							<div class="price-title">
-								<h3>{{ i18n "aptiotDeviceId"}}</h3>
-								<p><strong class="value" id="aptiotDeviceId">N/A</strong></p>
+								<p><strong class="value">{{ .Params.Id }}</strong></p>
 							</div>
 
 							{{"<!-- plan description -->" | safeHTML}}
 							<ul>
-								<li></li>
+								<li>{{ i18n "installDate" }}: {{ .Params.InstallDate }}</li>
+								<li>{{ i18n "installedBy" }}: {{ .Params.InstalledBy }}</li>
 							</ul>
 
 							{{"<!-- signup button -->" | safeHTML}}
@@ -38,16 +38,4 @@
 				</div>
 			</div>
 		</section>
-		<script>
-			function showDeviceData(aptiotDeviceId) {
-				if (aptiotDeviceId == null) {
-					aptiotDeviceId = "N/A";
-				}
-				document.getElementById("aptiotDeviceId").textContent = aptiotDeviceId.toUpperCase();
-			}
-			const urlParams = new URLSearchParams(window.location.search);
-			const aptiotDeviceId = urlParams.get('id');
-			console.log(aptiotDeviceId);
-			document.getElementById("body").addEventListener("load", showDeviceData(aptiotDeviceId));
-		</script>
 		{{ end }}

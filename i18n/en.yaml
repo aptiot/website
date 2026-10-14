@@ -28,7 +28,9 @@
   translation: Blog
 - id: contact
   translation: Contact
-- id: aptiotDeviceId
-  translation: Aptiot device ID
+- id: installDate
+  translation: Installed on
+- id: installedBy
+  translation: Installed by
 - id: callForService
   translation: Request maintenance

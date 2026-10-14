@@ -28,7 +28,9 @@
   translation: Blog
 - id: contact
   translation: Kapcsolat
-- id: aptiotDeviceId
-  translation: Aptiot eszközazonosító
+- id: installDate
+  translation: Telepítés dátum
+- id: installedBy
+  translation: Kivitelező
 - id: callForService
   translation: Karbantartás igénylése
