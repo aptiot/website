@@ -5,10 +5,10 @@ funfacts:
   counter_item:
     - title: "Sikeres Projekt"
       icon: "ti-medall-alt"
-      count: 3
+      count: 6
     - title: "Beszerelt Okos Eszköz"
       icon: "ti-unlock"
-      count: 50
+      count: 70
     - title: "Mérnökév IT Gyakorlat"
       icon: "ti-calendar"
       count: 25

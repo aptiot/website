@@ -10,17 +10,28 @@
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<h2>{{ .title | markdownify }}</h2>
-				<p>{{ .content | markdownify }}</p>
-				{{ if .button1.enable }}
-				{{ with .button1 }}
-				<a href="{{ .link }}" class="btn btn-main page-scroll">{{ .label }}</a></br>
-				{{ end }}
-				{{ end }}
-				{{ if .button2.enable }}
-				{{ with .button2 }}
-				<a href="{{ .link }}" class="btn btn-main page-scroll">{{ .label }}</a>
-				{{ end }}
-				{{ end }}
+				<div>
+					<p>{{ .content.consult | markdownify }}</p>
+					{{ if .button1.enable }}
+					{{ with .button1 }}
+					<a href="{{ .link }}" class="btn btn-main page-scroll">{{ .label }}</a></br>
+					{{ end }}
+					{{ end }}
+					{{ if .button2.enable }}
+					{{ with .button2 }}
+					<a href="{{ .link }}" class="btn btn-main page-scroll">{{ .label }}</a>
+					{{ end }}
+					{{ end }}
+				</div>
+				<div>
+					<p>{{ .content.offer | markdownify }}</p>
+				</div>
+				<div>
+					<p>{{ .content.construct | markdownify }}</p>
+				</div>
+				<div>
+					<p>{{ .content.support | markdownify }}</p>
+				</div>
 			</div>
 		</div>
 	</div>

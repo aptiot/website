@@ -3,12 +3,16 @@ cta:
   bg_image: "images/backgrounds/bg-plan.jpg"
   bg_image_webp: "images/backgrounds/bg-plan.webp"
   title: "Ötlettől a Telepítésig"
-  content: "Csapatunk segít ügyfeleinek megtervezni és megvalósítani elképzeléseit. A munkavégzésünk mindig alapos helyszíni felméréssel, radaros falszkenneléssel, vezetéknélküli interferencia méréssel indul. Törekszünk az igényes kivitelezésre precíziós lézeres eszközparkunk felhasználásával. Munkavégzésünk erősáramú kötéseit hőkamerás vizsgálattal ellenőrizzük, a kivitelezés biztonságosságát érintésvédelmi eszközökkel ellenőrizzük. Igény szerint rajzolvasás alapú árajánlat elkészítését, szabványos villamosipari rajz elkészítését és az alapján történő kivitelezést is vállalunk. Erősáramú, gyengeáramú, illetve vezetéknélküli informatikai hálózat kiépítésével is keressen bennünket bizalommal!"
+  content:
+    consult: Egyeztetünk időpontot egy ingyenes beszélgetéshez, amelynél 30 percben megértjük okosotthon céljait, vágyait.
+    offer: Írásos árajánlatot küldünk emailben a kivitelezési költségekről, feltételekről, vállalási határidőkről. Reméljük, hogy szimpatikusnak fogja találni az ajánlatunkat.
+    construct: Ha ajánlatunk elnyerte tetszését, a kivitelezéshez egyeztetünk időpontot. A telepítés után megtanítjuk a rendszer használatára, átadjuk az elkészült rendszer hozzáférési adatait, és segítünk az illetéktelenektől (magunktól is) elzárni privát okosotthonát.
+    support: Kérdés és probléma esetén továbbra is állunk rendelkezésére a garanciális időszakban, és azután is.
   button1:
     enable: true
     label: "Ingyenes visszahívást kérek"
     link: "https://calendar.app.google/Q78XYYeqnzh9W1ZZ9"
   button2:
     enable: true
-    label: "Ingyenes videokonferenciás egyeztetést kérek"
+    label: "Ingyenes videokonferenciát kérek"
     link: "https://calendar.app.google/rE4Jm8d9cHbbzTvz7"
