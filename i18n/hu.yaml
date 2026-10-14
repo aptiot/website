@@ -28,3 +28,9 @@
   translation: Blog
 - id: contact
   translation: Kapcsolat
+- id: installDate
+  translation: Telepítés dátum
+- id: installedBy
+  translation: Kivitelező
+- id: callForService
+  translation: Karbantartást kérek

@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+<section class="section section-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="title text-center">
+					<h2>{{ with .Params.Title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+							{{ with .Params.Title }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+		</div>
+		<section id="pricing" class="pricing">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-6 col-md-6 col-10 text-center wow fadeInUp" data-wow-duration="200ms">
+						<div class="price-item">
+
+							{{"<!-- plan name & value -->" | safeHTML}}
+							<div class="price-title">
+								<p><strong class="value">{{ .Params.Id }}</strong></p>
+							</div>
+
+							{{"<!-- plan description -->" | safeHTML}}
+							<ul>
+								<li>{{ i18n "installDate" }}: {{ .Params.InstallDate }}</li>
+								<li>{{ i18n "installedBy" }}: {{ .Params.InstalledBy }}</li>
+							</ul>
+
+							{{"<!-- signup button -->" | safeHTML}}
+							<a class="btn btn-transparent page-scroll" href="../#contact">{{ i18n "callForService"
+								}}</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		{{ end }}

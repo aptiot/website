@@ -28,3 +28,9 @@
   translation: Blog
 - id: contact
   translation: Contact
+- id: installDate
+  translation: Installed on
+- id: installedBy
+  translation: Installed by
+- id: callForService
+  translation: Request maintenance
