@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+<section class="section section-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 mx-auto">
+				<div class="title text-center">
+					<h2>{{ with .Params.Title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+							{{ with .Params.Title }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+		</div>
+		<section id="pricing" class="pricing">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-6 col-md-6 col-6 text-center wow fadeInUp" data-wow-duration="200ms">
+						<div class="price-item">
+
+							{{"<!-- plan name & value -->" | safeHTML}}
+							<div class="price-title">
+								<h3>{{ i18n "aptiotDeviceId"}}</h3>
+								<p><strong class="value" id="aptiotDeviceId">N/A</strong></p>
+							</div>
+
+							{{"<!-- plan description -->" | safeHTML}}
+							<ul>
+								<li></li>
+							</ul>
+
+							{{"<!-- signup button -->" | safeHTML}}
+							<a class="btn btn-transparent page-scroll" href="../#contact">{{ i18n "callForService"
+								}}</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script>
+			function showDeviceData(aptiotDeviceId) {
+				if (aptiotDeviceId == null) {
+					aptiotDeviceId = "N/A";
+				}
+				document.getElementById("aptiotDeviceId").textContent = aptiotDeviceId.toUpperCase();
+			}
+			const urlParams = new URLSearchParams(window.location.search);
+			const aptiotDeviceId = urlParams.get('id');
+			console.log(aptiotDeviceId);
+			document.getElementById("body").addEventListener("load", showDeviceData(aptiotDeviceId));
+		</script>
+		{{ end }}

@@ -28,3 +28,7 @@
   translation: Blog
 - id: contact
   translation: Contact
+- id: aptiotDeviceId
+  translation: Aptiot device ID
+- id: callForService
+  translation: Request maintenance

@@ -28,3 +28,7 @@
   translation: Blog
 - id: contact
   translation: Kapcsolat
+- id: aptiotDeviceId
+  translation: Aptiot eszközazonosító
+- id: callForService
+  translation: Karbantartás igénylése
