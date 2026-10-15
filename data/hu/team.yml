@@ -6,15 +6,23 @@ team:
       image_webp: images/team/david-lakatos.webp
       image: images/team/david-lakatos.png
       designation: ügyvezető
-      content: BME MSc, okleveles mérnök informatikus
+      content: BME MSc, okleveles mérnök informatikus, villanyszerelő
       social :
         - icon: ti-user
           link: "/team/david-lakatos"
+        - icon : ti-linkedin
+          link : "https://www.linkedin.com/in/david-lakatos/"
+        - icon : ti-github
+          link : "https://github.com/dlakatos847"
     - name: Rébeli-Szabó Tamás
       image_webp: images/team/tamas-rebeli.webp
       image: images/team/tamas-rebeli.png
       designation: ügyvezető
-      content: BME MSc, okleveles mérnök informatikus
+      content: BME MSc, okleveles mérnök informatikus, villanyszerelő
       social :
         - icon: ti-user
           link: "/team/tamas-rebeli"
+        - icon : ti-linkedin
+          link : "https://www.linkedin.com/in/tam%C3%A1s-r%C3%A9beli-szab%C3%B3-69511469/"
+        - icon : ti-github
+          link : "https://github.com/rblst"

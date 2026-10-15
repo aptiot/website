@@ -10,5 +10,3 @@ social:
   - icon : ti-github
     link : "https://github.com/rblst"
 ---
-
-{{% include "tamas-rebeli-cv.md" %}}

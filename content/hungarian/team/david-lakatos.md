@@ -9,5 +9,3 @@ social:
   - icon : ti-github
     link : "https://github.com/dlakatos847"
 ---
-
-{{% include "david-lakatos-cv.md" %}}
