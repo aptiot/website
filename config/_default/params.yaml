@@ -21,6 +21,7 @@ plugins:
     - link: /plugins/magnific-popup/jquery.magnific-popup.min.js
     - link: /plugins/lazy-load/lozad.min.js
     - link: /plugins/google-map/map.js
+    - link: /plugins/cmdb-proxy/bundle.js
 preloader:
   enable: false
 cookies:

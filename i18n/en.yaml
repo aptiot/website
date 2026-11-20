@@ -28,9 +28,39 @@
   translation: Blog
 - id: contact
   translation: Contact
-- id: installDate
+- id: acceptanceDate
+  translation: Accepted on
+- id: brandDescription
+  translation: Brand
+- id: buildingDescription
+  translation: Building
+- id: code
+  translation: Aptiot ID
+- id: condition
+  translation: Condition
+- id: floor
+  translation: floor
+- id: installationDate
   translation: Installed on
-- id: installedBy
-  translation: Installed by
+- id: model
+  translation: Model
+- id: name
+  translation: Name
+- id: notes
+  translation: Notes
+- id: room
+  translation: Room
+- id: serialNumber
+  translation: Serial number
+- id: serviceStatus
+  translation: Service Status
+- id: type
+  translation: Type
+- id: unitDescription
+  translation: Épület egység
+- id: voltage
+  translation: Voltage
+- id: warrantyEnd
+  translation: End of warranty
 - id: callForService
   translation: Request maintenance
