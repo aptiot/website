@@ -28,9 +28,39 @@
   translation: Blog
 - id: contact
   translation: Kapcsolat
-- id: installDate
+- id: acceptanceDate
+  translation: Átvétel dátum
+- id: brandDescription
+  translation: Márka
+- id: buildingDescription
+  translation: Épület
+- id: code
+  translation: Aptiot ID
+- id: condition
+  translation: Állapot
+- id: floor
+  translation: Emelet
+- id: installationDate
   translation: Telepítés dátum
-- id: installedBy
-  translation: Kivitelező
+- id: model
+  translation: Model
+- id: name
+  translation: Név
+- id: notes
+  translation: Megjegyzés
+- id: room
+  translation: Szoba
+- id: serialNumber
+  translation: Sorozatszám
+- id: serviceStatus
+  translation: Karbantartás állapota
+- id: type
+  translation: Típus
+- id: unitDescription
+  translation: Épület egység
+- id: voltage
+  translation: Feszültség
+- id: warrantyEnd
+  translation: Jótállás vége
 - id: callForService
   translation: Karbantartást kérek
